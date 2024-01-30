@@ -7,11 +7,11 @@ This is the code for the IJCNN 2024 Submission "Global-Local Query-Support-Cross
 - PyTorch 1.10.0
 - cuda 11.4
 
-## Prepare Datasets
+## Prepare Dataset
 
 - PASCAL-5<sup>i</sup>:  [VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/) + [SBD](http://home.bharathh.info/pubs/codes/SBD/download.html)
 
-## Prepare backbones
+## Prepare Backbone
 
 Downloading the following pre-trained backbones:
 
@@ -27,7 +27,7 @@ You can use our scripts to build your own. Training will take approx. 1.5 days u
 > sh ./scripts/train.sh
 > ```
 
-For testing, you have to prepare a pretrained model. You can train one by yourself. We will upload the pretrained models if the paper is accepted.
+For testing, you have to prepare a pretrained model. You can train one by yourself.
 > ```bash
 > sh ./scripts/test.sh
 > ```
