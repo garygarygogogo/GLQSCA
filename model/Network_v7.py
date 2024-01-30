@@ -1,4 +1,3 @@
-r""" Dense Cross-Query-and-Support Attention Weighted Mask Aggregation for Few-Shot Segmentation """
 from functools import reduce
 from operator import add
 
